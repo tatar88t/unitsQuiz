@@ -1,0 +1,140 @@
+.team{
+   
+    background: url('../../img/team-bg.jpg') center center/cover no-repeat ;
+    font-family: 'DIN Pro Bold';
+    
+    
+}
+
+.team__wrapper{
+    /* padding: 0 40px; */
+    max-width: 1770px;
+    padding-top: 132px; 
+    padding-bottom: 155px;
+    position: relative;
+    
+}
+
+
+.team__title{
+    font-size: 70px;
+    font-family: 'DIN Pro Bold';
+    line-height: 1.286;
+    color: rgb(40, 40, 40);
+
+}
+
+.team__expert{
+    margin-left: 42px;
+}
+.team__subtitle{
+    font-size: 32px;  
+    color: rgb(40, 40, 40);
+    line-height: 1.844;
+}
+
+.team__blocks-wrapper{
+    display: flex;
+    color: rgba(40, 40, 40, 0.6);
+    font-size: 31px;
+    justify-content: space-between;
+}
+.team__speaker-block{
+    
+    
+    line-height: 1.315;
+    margin-top: 40px;
+}
+.team__speaker-block ul {
+    margin-top: 0.8em;
+    margin-left: -8px;
+    
+}
+.team__speaker-block li{
+    list-style-type: none;
+    position: relative;
+}
+.team__speaker-block li::before{
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #6daee9;
+    bottom: 0.4em;
+    left: -0.9em;
+}
+.team__promo-block{
+    margin-top: 40px;
+    
+}
+.team__promo-block div:first-child :nth-child(2){
+    margin-top: 28px;
+}
+.team__promo-block div:last-child{
+    margin-top: 66px;
+}
+
+.team__promo-block div:last-child :nth-child(2){
+    margin-top: 18px;
+    
+}
+.team__promo-block div:last-child :nth-child(3){
+    
+    margin-left: 38px;
+}
+.team__man-img{
+    margin-left: -14px;
+}
+.team__list-block{
+    position: absolute;
+    width: 1380px;
+    height: 404px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, 0.0) 100% );
+    bottom: 86px;
+    left: 22px;
+    z-index: 1;
+    padding: 48px 0 46px 90px;
+    border-radius: 12px;
+}
+.team__group-img{
+    position: absolute;
+    
+    left: 50%;
+    bottom: 0;
+    z-index: 2;
+}
+
+.team__members{
+    margin-top: 22px;
+    margin-left: -11px;
+    color: rgba(40, 40, 40, 0.502);
+    font-family: 'DIN Pro Medium';
+    font-size: 31px;
+    display: flex;
+}
+.team_co-workers{
+    max-width: 408px;  
+}
+.team_co-workers ul {
+    
+}
+.team_co-workers li{
+    list-style-type: none;
+    margin-bottom: 0.6em; 
+    position: relative;
+}
+.team_co-workers li::before{
+    position: absolute;
+    content: "";
+    
+    width: 0.4em;
+        height: 0.4em;
+    border-radius: 50%;
+    background: #6daee9;
+    bottom: 0.5em;
+    left: -0.9em;
+}
+.team__members div:first-child ul :nth-child(2)::before{
+    bottom: 2em;
+}

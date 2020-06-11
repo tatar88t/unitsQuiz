@@ -1,0 +1,34 @@
+
+@import "fonts/din_pro.css";
+@import "modules/header.css";
+@import "modules/team.css";
+@import "modules/modal.css";
+@import "modules/media.css";
+@font-face {
+	font-family: 'DIN Pro';
+	src: url('../fonts/din_pro.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/din_pro.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/din_pro.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/din_pro.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/din_pro.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/din_pro.svg#din_pro') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'DIN Pro Bold';
+	src: url('../fonts/din_pro_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/din_pro_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/din_pro_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/din_pro_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/din_pro_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/din_pro_bold.svg#din_pro_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'DIN Pro Medium';
+	src: url('../fonts/din_pro_medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/din_pro_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/din_pro_medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/din_pro_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/din_pro_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/din_pro_medium.svg#din_pro_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}

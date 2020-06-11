@@ -1,0 +1,47 @@
+
+.header__wrapper{
+    max-width: 1240px;
+    padding: 74px 5px 78px 5px;
+    margin: 0 auto;
+}
+
+.header__title{
+    font-size: 45px;
+    font-family: 'DIN Pro Bold';
+    color: rgb(40, 40, 40);
+    line-height: 1.311;
+    text-align: center;
+}
+.header__menu{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.header__menu-item{
+    width: 557px
+}
+.header__menu-block{
+    width: 557px;
+    min-height: 293px;
+    background: #e7e7e7;
+    border-radius: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__menu-descr{
+    max-width: 80%;
+    margin: 30px auto 0 auto;
+    font-size: 30px;
+    line-height: 1.261;
+    text-align: center;
+    color: rgba(40, 40, 40, 0.6);
+    font-family: 'DIN Pro Medium';   
+}
+.header__menu-block-link img{
+    position: absolute;
+    top: calc(50% + 34px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
